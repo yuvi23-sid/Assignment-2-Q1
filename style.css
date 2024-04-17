@@ -1,0 +1,62 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center align the weather container */
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #4CAF50, #2E8B57);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the header */
+.weather-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the weather info */
+.weather-info p {
+    margin-bottom: 10px;
+}
+
+.weather-info strong {
+    font-weight: bold;
+}
+
+/* Style the temperature span */
+#temperature {
+    font-size: 24px;
+}
+
+/* Style the description span */
+#description {
+    font-size: 20px;
+}
+
+/* Add hover effect */
+.weather-container:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Add hover effect to h1 */
+.weather-container h1:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
